@@ -1,0 +1,270 @@
+{
+  "fileId": "cc5ceab8fcde97266bc544fc165a933dc074210a",
+  "fileName": "tests/fmsApplication/fmsBadalpur.spec.js",
+  "tests": [
+    {
+      "testId": "cc5ceab8fcde97266bc544fc165a933dc074210a-4cae6229c73785056c6e0c7beecb73e48bb2ad9a",
+      "title": "test",
+      "projectName": "",
+      "location": {
+        "file": "tests/fmsApplication/fmsBadalpur.spec.js",
+        "line": 4,
+        "column": 1
+      },
+      "duration": 12196,
+      "outcome": "expected",
+      "path": [
+        "tests/fmsApplication/fmsBadalpur.spec.js:4"
+      ],
+      "results": [
+        {
+          "duration": 12196,
+          "startTime": "2021-12-20T08:49:32.912Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2021-12-20T08:49:32.912Z",
+              "duration": 113,
+              "steps": [
+                {
+                  "title": "browserContext.newPage",
+                  "startTime": "2021-12-20T08:49:32.918Z",
+                  "duration": 107,
+                  "steps": []
+                }
+              ]
+            },
+            {
+              "title": "page.goto(http://35.206.94.22:7001/)",
+              "startTime": "2021-12-20T08:49:33.026Z",
+              "duration": 4516,
+              "snippet": "\u001b[0m \u001b[90m  4 |\u001b[39m test(\u001b[32m\"test\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  5 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(fmsBadalpurCreds\u001b[33m.\u001b[39mhost \u001b[33m+\u001b[39m \u001b[32m\"/\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  6 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/fmsApplication/fmsBadalpur.spec.js",
+                "line": 5,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.goto(http://35.206.94.22:7001/dashboard)",
+              "startTime": "2021-12-20T08:49:37.543Z",
+              "duration": 1076,
+              "snippet": "\u001b[0m \u001b[90m  6 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(fmsBadalpurCreds\u001b[33m.\u001b[39mhost \u001b[33m+\u001b[39m \u001b[32m\"/dashboard\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  8 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/fmsApplication/fmsBadalpur.spec.js",
+                "line": 7,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.goto(http://35.206.94.22:7001/login)",
+              "startTime": "2021-12-20T08:49:38.620Z",
+              "duration": 456,
+              "snippet": "\u001b[0m \u001b[90m  8 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  9 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(fmsBadalpurCreds\u001b[33m.\u001b[39mhost \u001b[33m+\u001b[39m \u001b[32m\"/login\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 10 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/fmsApplication/fmsBadalpur.spec.js",
+                "line": 9,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.click(input[type=\"username\"])",
+              "startTime": "2021-12-20T08:49:39.077Z",
+              "duration": 1974,
+              "snippet": "\u001b[0m \u001b[90m 10 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 11 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'input[type=\"username\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 12 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/fmsApplication/fmsBadalpur.spec.js",
+                "line": 11,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.fill(input[type=\"username\"])",
+              "startTime": "2021-12-20T08:49:41.051Z",
+              "duration": 20,
+              "snippet": "\u001b[0m \u001b[90m 12 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 13 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[type=\"username\"]'\u001b[39m\u001b[33m,\u001b[39m fmsBadalpurCreds\u001b[33m.\u001b[39musername)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 14 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/fmsApplication/fmsBadalpur.spec.js",
+                "line": 13,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.click(input[type=\"password\"])",
+              "startTime": "2021-12-20T08:49:41.072Z",
+              "duration": 1018,
+              "snippet": "\u001b[0m \u001b[90m 14 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 15 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'input[type=\"password\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 16 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/fmsApplication/fmsBadalpur.spec.js",
+                "line": 15,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.fill(input[type=\"password\"])",
+              "startTime": "2021-12-20T08:49:42.091Z",
+              "duration": 20,
+              "snippet": "\u001b[0m \u001b[90m 16 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 17 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[type=\"password\"]'\u001b[39m\u001b[33m,\u001b[39m fmsBadalpurCreds\u001b[33m.\u001b[39mpassword)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 18 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/fmsApplication/fmsBadalpur.spec.js",
+                "line": 17,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.waitForNavigation",
+              "startTime": "2021-12-20T08:49:42.111Z",
+              "duration": 425,
+              "snippet": "\u001b[0m \u001b[90m 19 |\u001b[39m   \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([\u001b[0m\n\u001b[0m \u001b[90m 20 |\u001b[39m     page\u001b[33m.\u001b[39mwaitForNavigation(\u001b[90m/*{ url: 'http://35.206.94.22:7001/dashboard' }*/\u001b[39m)\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m         ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 21 |\u001b[39m     page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Login\")'\u001b[39m)\u001b[33m,\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/fmsApplication/fmsBadalpur.spec.js",
+                "line": 20,
+                "column": 10
+              }
+            },
+            {
+              "title": "page.click(button:has-text(\"Login\"))",
+              "startTime": "2021-12-20T08:49:42.112Z",
+              "duration": 58,
+              "snippet": "\u001b[0m \u001b[90m 20 |\u001b[39m     page\u001b[33m.\u001b[39mwaitForNavigation(\u001b[90m/*{ url: 'http://35.206.94.22:7001/dashboard' }*/\u001b[39m)\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 21 |\u001b[39m     page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Login\")'\u001b[39m)\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m         ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 22 |\u001b[39m   ])\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/fmsApplication/fmsBadalpur.spec.js",
+                "line": 21,
+                "column": 10
+              }
+            },
+            {
+              "title": "locator.innerText(//body/div[@id='root']/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/span[2])",
+              "startTime": "2021-12-20T08:49:42.536Z",
+              "duration": 196,
+              "snippet": "\u001b[0m \u001b[90m 27 |\u001b[39m   )\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 28 |\u001b[39m   \u001b[36mconst\u001b[39m totalDevice_innertext \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m totalDevice\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                                  ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 29 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/fmsApplication/fmsBadalpur.spec.js",
+                "line": 28,
+                "column": 51
+              }
+            },
+            {
+              "title": "locator.innerText(//body/div[@id='root']/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1])",
+              "startTime": "2021-12-20T08:49:42.733Z",
+              "duration": 10,
+              "snippet": "\u001b[0m \u001b[90m 33 |\u001b[39m   )\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 34 |\u001b[39m   \u001b[36mconst\u001b[39m locator_innertext \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                          ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 35 |\u001b[39m   console\u001b[33m.\u001b[39mlog(\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/fmsApplication/fmsBadalpur.spec.js",
+                "line": 34,
+                "column": 43
+              }
+            },
+            {
+              "title": "locator.innerText(//body/div[@id='root']/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1])",
+              "startTime": "2021-12-20T08:49:42.743Z",
+              "duration": 6,
+              "snippet": "\u001b[0m \u001b[90m 42 |\u001b[39m   )\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 43 |\u001b[39m   \u001b[36mconst\u001b[39m locator_innertext1 \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator1\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                            ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 44 |\u001b[39m   console\u001b[33m.\u001b[39mlog(\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/fmsApplication/fmsBadalpur.spec.js",
+                "line": 43,
+                "column": 45
+              }
+            },
+            {
+              "title": "locator.innerText(//body/div[@id='root']/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1])",
+              "startTime": "2021-12-20T08:49:42.750Z",
+              "duration": 17,
+              "snippet": "\u001b[0m \u001b[90m 53 |\u001b[39m   )\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 54 |\u001b[39m   \u001b[36mconst\u001b[39m locator_innertext2 \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator2\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                            ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 55 |\u001b[39m   console\u001b[33m.\u001b[39mlog(\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/fmsApplication/fmsBadalpur.spec.js",
+                "line": 54,
+                "column": 45
+              }
+            },
+            {
+              "title": "page.click(button:has-text(\"Welcome KBMC,\"))",
+              "startTime": "2021-12-20T08:49:42.769Z",
+              "duration": 1049,
+              "snippet": "\u001b[0m \u001b[90m 58 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 59 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Welcome KBMC,\")'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 60 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/fmsApplication/fmsBadalpur.spec.js",
+                "line": 59,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.click(button[role=\"menuitem\"]:has-text(\"logout\"))",
+              "startTime": "2021-12-20T08:49:43.818Z",
+              "duration": 1211,
+              "snippet": "\u001b[0m \u001b[90m 60 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 61 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button[role=\"menuitem\"]:has-text(\"logout\")'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 62 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(fmsBadalpurCreds\u001b[33m.\u001b[39mhost \u001b[33m+\u001b[39m \u001b[32m\"/login\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/fmsApplication/fmsBadalpur.spec.js",
+                "line": 61,
+                "column": 14
+              }
+            },
+            {
+              "title": "expect.toHaveURL",
+              "startTime": "2021-12-20T08:49:45.029Z",
+              "duration": 33,
+              "snippet": "\u001b[0m \u001b[90m 61 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button[role=\"menuitem\"]:has-text(\"logout\")'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 62 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(fmsBadalpurCreds\u001b[33m.\u001b[39mhost \u001b[33m+\u001b[39m \u001b[32m\"/login\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                     ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 63 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/fmsApplication/fmsBadalpur.spec.js",
+                "line": 62,
+                "column": 22
+              }
+            },
+            {
+              "title": "page.close",
+              "startTime": "2021-12-20T08:49:45.062Z",
+              "duration": 7,
+              "snippet": "\u001b[0m \u001b[90m 63 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 64 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 65 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/fmsApplication/fmsBadalpur.spec.js",
+                "line": 64,
+                "column": 14
+              }
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2021-12-20T08:49:45.070Z",
+              "duration": 37,
+              "steps": [
+                {
+                  "title": "browserContext.close",
+                  "startTime": "2021-12-20T08:49:45.071Z",
+                  "duration": 36,
+                  "steps": []
+                }
+              ]
+            }
+          ],
+          "error": "",
+          "status": "passed",
+          "attachments": [
+            {
+              "name": "stdout",
+              "contentType": "text/plain",
+              "body": "Devices online are 0/0\nDevices offline for 48H-72H are 0/0\nDevices offline for 72H 0/0\n"
+            }
+          ]
+        }
+      ],
+      "ok": true
+    }
+  ]
+}

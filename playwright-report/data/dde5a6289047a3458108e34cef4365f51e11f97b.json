@@ -1,0 +1,294 @@
+{
+  "fileId": "dde5a6289047a3458108e34cef4365f51e11f97b",
+  "fileName": "tests/binApplication/vighnaharta.spec.js",
+  "tests": [
+    {
+      "testId": "dde5a6289047a3458108e34cef4365f51e11f97b-4cae6229c73785056c6e0c7beecb73e48bb2ad9a",
+      "title": "test",
+      "projectName": "",
+      "location": {
+        "file": "tests/binApplication/vighnaharta.spec.js",
+        "line": 4,
+        "column": 1
+      },
+      "duration": 53992,
+      "outcome": "expected",
+      "path": [
+        "tests/binApplication/vighnaharta.spec.js:4"
+      ],
+      "results": [
+        {
+          "duration": 53992,
+          "startTime": "2021-12-20T08:48:39.527Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2021-12-20T08:48:39.527Z",
+              "duration": 4505,
+              "steps": [
+                {
+                  "title": "browserContext.newPage",
+                  "startTime": "2021-12-20T08:48:43.838Z",
+                  "duration": 194,
+                  "steps": []
+                }
+              ]
+            },
+            {
+              "title": "page.goto(https://ibin.hyperthings.in/)",
+              "startTime": "2021-12-20T08:48:44.033Z",
+              "duration": 6006,
+              "snippet": "\u001b[0m \u001b[90m  5 |\u001b[39m   \u001b[90m// Go to https://ibin.hyperthings.in/\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  6 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(vignaharthaCreds\u001b[33m.\u001b[39mhost \u001b[33m+\u001b[39m \u001b[32m\"/\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/vighnaharta.spec.js",
+                "line": 6,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.goto(https://ibin.hyperthings.in/dashboard)",
+              "startTime": "2021-12-20T08:48:50.040Z",
+              "duration": 495,
+              "snippet": "\u001b[0m \u001b[90m  8 |\u001b[39m   \u001b[90m// Go to https://ibin.hyperthings.in/dashboard\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  9 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(vignaharthaCreds\u001b[33m.\u001b[39mhost \u001b[33m+\u001b[39m \u001b[32m\"/dashboard\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 10 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/vighnaharta.spec.js",
+                "line": 9,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.goto(https://ibin.hyperthings.in/login)",
+              "startTime": "2021-12-20T08:48:50.536Z",
+              "duration": 2041,
+              "snippet": "\u001b[0m \u001b[90m 11 |\u001b[39m   \u001b[90m// Go to https://ibin.hyperthings.in/login\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 12 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(vignaharthaCreds\u001b[33m.\u001b[39mhost \u001b[33m+\u001b[39m \u001b[32m\"/login\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 13 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/vighnaharta.spec.js",
+                "line": 12,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.click(input[type=\"username\"])",
+              "startTime": "2021-12-20T08:48:52.578Z",
+              "duration": 11133,
+              "snippet": "\u001b[0m \u001b[90m 14 |\u001b[39m   \u001b[90m// Click input[type=\"username\"]\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 15 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'input[type=\"username\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 16 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/vighnaharta.spec.js",
+                "line": 15,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.fill(input[type=\"username\"])",
+              "startTime": "2021-12-20T08:49:03.712Z",
+              "duration": 35,
+              "snippet": "\u001b[0m \u001b[90m 17 |\u001b[39m   \u001b[90m// Fill input[type=\"username\"]\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 18 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[type=\"username\"]'\u001b[39m\u001b[33m,\u001b[39m vignaharthaCreds\u001b[33m.\u001b[39musername)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 19 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/vighnaharta.spec.js",
+                "line": 18,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.click(input[type=\"password\"])",
+              "startTime": "2021-12-20T08:49:03.747Z",
+              "duration": 5013,
+              "snippet": "\u001b[0m \u001b[90m 20 |\u001b[39m   \u001b[90m// Click input[type=\"password\"]\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 21 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'input[type=\"password\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 22 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/vighnaharta.spec.js",
+                "line": 21,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.fill(input[type=\"password\"])",
+              "startTime": "2021-12-20T08:49:08.761Z",
+              "duration": 102,
+              "snippet": "\u001b[0m \u001b[90m 23 |\u001b[39m   \u001b[90m// Fill input[type=\"password\"]\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 24 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[type=\"password\"]'\u001b[39m\u001b[33m,\u001b[39m vignaharthaCreds\u001b[33m.\u001b[39mpassword)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 25 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/vighnaharta.spec.js",
+                "line": 24,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.waitForNavigation",
+              "startTime": "2021-12-20T08:49:08.868Z",
+              "duration": 1021,
+              "snippet": "\u001b[0m \u001b[90m 27 |\u001b[39m   \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([\u001b[0m\n\u001b[0m \u001b[90m 28 |\u001b[39m     page\u001b[33m.\u001b[39mwaitForNavigation(\u001b[90m/*{ url: 'https://ibin.hyperthings.in/dashboard' }*/\u001b[39m)\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m         ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 29 |\u001b[39m     page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Login\")'\u001b[39m)\u001b[33m,\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/vighnaharta.spec.js",
+                "line": 28,
+                "column": 10
+              }
+            },
+            {
+              "title": "page.click(button:has-text(\"Login\"))",
+              "startTime": "2021-12-20T08:49:08.874Z",
+              "duration": 103,
+              "snippet": "\u001b[0m \u001b[90m 28 |\u001b[39m     page\u001b[33m.\u001b[39mwaitForNavigation(\u001b[90m/*{ url: 'https://ibin.hyperthings.in/dashboard' }*/\u001b[39m)\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 29 |\u001b[39m     page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Login\")'\u001b[39m)\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m         ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 30 |\u001b[39m   ])\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/vighnaharta.spec.js",
+                "line": 29,
+                "column": 10
+              }
+            },
+            {
+              "title": "locator.innerText(//body/div[@id='root']/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1])",
+              "startTime": "2021-12-20T08:49:09.900Z",
+              "duration": 619,
+              "snippet": "\u001b[0m \u001b[90m 35 |\u001b[39m   )\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 36 |\u001b[39m   \u001b[36mconst\u001b[39m locator_innertext \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                          ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 37 |\u001b[39m   console\u001b[33m.\u001b[39mlog(\u001b[32m\"Devices online are \"\u001b[39m \u001b[33m+\u001b[39m locator_innertext \u001b[33m+\u001b[39m \u001b[32m\" out of 30\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/vighnaharta.spec.js",
+                "line": 36,
+                "column": 43
+              }
+            },
+            {
+              "title": "locator.innerText(//body/div[@id='root']/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1])",
+              "startTime": "2021-12-20T08:49:10.520Z",
+              "duration": 8,
+              "snippet": "\u001b[0m \u001b[90m 42 |\u001b[39m   )\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 43 |\u001b[39m   \u001b[36mconst\u001b[39m locator_innertext2 \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator2\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                            ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 44 |\u001b[39m   console\u001b[33m.\u001b[39mlog(\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/vighnaharta.spec.js",
+                "line": 43,
+                "column": 45
+              }
+            },
+            {
+              "title": "locator.innerText(//body/div[@id='root']/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1])",
+              "startTime": "2021-12-20T08:49:10.529Z",
+              "duration": 17,
+              "snippet": "\u001b[0m \u001b[90m 51 |\u001b[39m   )\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 52 |\u001b[39m   \u001b[36mconst\u001b[39m locator_innertext3 \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator3\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                            ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 53 |\u001b[39m   console\u001b[33m.\u001b[39mlog(\u001b[32m\"Total Devices offline \"\u001b[39m \u001b[33m+\u001b[39m locator_innertext3 \u001b[33m+\u001b[39m \u001b[32m\" out of 30\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/vighnaharta.spec.js",
+                "line": 52,
+                "column": 45
+              }
+            },
+            {
+              "title": "locator.innerText(//body/div[@id='root']/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1])",
+              "startTime": "2021-12-20T08:49:10.547Z",
+              "duration": 157,
+              "snippet": "\u001b[0m \u001b[90m 58 |\u001b[39m   )\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 59 |\u001b[39m   \u001b[36mconst\u001b[39m locator_innertext4 \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator4\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                            ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 60 |\u001b[39m   console\u001b[33m.\u001b[39mlog(\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/vighnaharta.spec.js",
+                "line": 59,
+                "column": 45
+              }
+            },
+            {
+              "title": "locator.innerText(//body/div[@id='root']/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1])",
+              "startTime": "2021-12-20T08:49:10.705Z",
+              "duration": 36,
+              "snippet": "\u001b[0m \u001b[90m 67 |\u001b[39m   )\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 68 |\u001b[39m   \u001b[36mconst\u001b[39m locator_innertext5 \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator5\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                            ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 69 |\u001b[39m   console\u001b[33m.\u001b[39mlog(\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/vighnaharta.spec.js",
+                "line": 68,
+                "column": 45
+              }
+            },
+            {
+              "title": "locator.innerText(//body/div[@id='root']/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1])",
+              "startTime": "2021-12-20T08:49:10.742Z",
+              "duration": 32,
+              "snippet": "\u001b[0m \u001b[90m 76 |\u001b[39m   )\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 77 |\u001b[39m   \u001b[36mconst\u001b[39m locator_innertext6 \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator6\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                            ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 78 |\u001b[39m   console\u001b[33m.\u001b[39mlog(\u001b[32m\"Devices Tampered are \"\u001b[39m \u001b[33m+\u001b[39m locator_innertext6 \u001b[33m+\u001b[39m \u001b[32m\" out of 30\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/vighnaharta.spec.js",
+                "line": 77,
+                "column": 45
+              }
+            },
+            {
+              "title": "page.click(button:has-text(\"Welcome Demo BTS 3,\"))",
+              "startTime": "2021-12-20T08:49:10.775Z",
+              "duration": 11007,
+              "snippet": "\u001b[0m \u001b[90m 81 |\u001b[39m   \u001b[90m// Click button:has-text(\"Welcome Demo BTS 3,\")\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 82 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Welcome Demo BTS 3,\")'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 83 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/vighnaharta.spec.js",
+                "line": 82,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.click(button[role=\"menuitem\"]:has-text(\"logout\"))",
+              "startTime": "2021-12-20T08:49:21.784Z",
+              "duration": 10762,
+              "snippet": "\u001b[0m \u001b[90m 85 |\u001b[39m   \u001b[90m// Click button[role=\"menuitem\"]:has-text(\"logout\")\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 86 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button[role=\"menuitem\"]:has-text(\"logout\")'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 87 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(vignaharthaCreds\u001b[33m.\u001b[39mhost \u001b[33m+\u001b[39m \u001b[32m\"/login\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/vighnaharta.spec.js",
+                "line": 86,
+                "column": 14
+              }
+            },
+            {
+              "title": "expect.toHaveURL",
+              "startTime": "2021-12-20T08:49:32.551Z",
+              "duration": 18,
+              "snippet": "\u001b[0m \u001b[90m 86 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button[role=\"menuitem\"]:has-text(\"logout\")'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 87 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(vignaharthaCreds\u001b[33m.\u001b[39mhost \u001b[33m+\u001b[39m \u001b[32m\"/login\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                     ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 88 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/vighnaharta.spec.js",
+                "line": 87,
+                "column": 22
+              }
+            },
+            {
+              "title": "page.close",
+              "startTime": "2021-12-20T08:49:32.570Z",
+              "duration": 8,
+              "snippet": "\u001b[0m \u001b[90m 90 |\u001b[39m   \u001b[90m// Close page\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 91 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 92 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/vighnaharta.spec.js",
+                "line": 91,
+                "column": 14
+              }
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2021-12-20T08:49:32.579Z",
+              "duration": 939,
+              "steps": [
+                {
+                  "title": "browserContext.close",
+                  "startTime": "2021-12-20T08:49:32.581Z",
+                  "duration": 937,
+                  "steps": []
+                }
+              ]
+            }
+          ],
+          "error": "",
+          "status": "passed",
+          "attachments": [
+            {
+              "name": "stdout",
+              "contentType": "text/plain",
+              "body": "Devices online are 0 out of 30\nDevices offline for 24Hrs are 0 out of 30\nTotal Devices offline 0 out of 30\nDevices with Good Battery are 0 out of 30\nDevices with Low Battery are 0 out of 30\nDevices Tampered are 0 out of 30\n"
+            }
+          ]
+        }
+      ],
+      "ok": true
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "fileId": "879d255e33cda36955dba985a2a58b9f20da6035",
+  "fileName": "tests/binApplication/dicc.spec.js",
+  "tests": [
+    {
+      "testId": "879d255e33cda36955dba985a2a58b9f20da6035-4cae6229c73785056c6e0c7beecb73e48bb2ad9a",
+      "title": "test",
+      "projectName": "",
+      "location": {
+        "file": "tests/binApplication/dicc.spec.js",
+        "line": 4,
+        "column": 1
+      },
+      "duration": 53754,
+      "outcome": "expected",
+      "path": [
+        "tests/binApplication/dicc.spec.js:4"
+      ],
+      "results": [
+        {
+          "duration": 53754,
+          "startTime": "2021-12-20T08:48:38.816Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2021-12-20T08:48:38.817Z",
+              "duration": 3482,
+              "steps": [
+                {
+                  "title": "browserContext.newPage",
+                  "startTime": "2021-12-20T08:48:42.110Z",
+                  "duration": 189,
+                  "steps": []
+                }
+              ]
+            },
+            {
+              "title": "page.goto(http://103.116.27.151:7002/)",
+              "startTime": "2021-12-20T08:48:42.301Z",
+              "duration": 5643,
+              "snippet": "\u001b[0m \u001b[90m  5 |\u001b[39m   \u001b[90m// Go to http://103.116.27.151:7002/\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  6 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(diccCreds\u001b[33m.\u001b[39mhost \u001b[33m+\u001b[39m \u001b[32m\"/\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/dicc.spec.js",
+                "line": 6,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.goto(http://103.116.27.151:7002/dashboard)",
+              "startTime": "2021-12-20T08:48:47.944Z",
+              "duration": 5720,
+              "snippet": "\u001b[0m \u001b[90m  8 |\u001b[39m   \u001b[90m// Go to http://103.116.27.151:7002/dashboard\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  9 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(diccCreds\u001b[33m.\u001b[39mhost \u001b[33m+\u001b[39m \u001b[32m\"/dashboard\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 10 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/dicc.spec.js",
+                "line": 9,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.goto(http://103.116.27.151:7002/login)",
+              "startTime": "2021-12-20T08:48:53.665Z",
+              "duration": 244,
+              "snippet": "\u001b[0m \u001b[90m 11 |\u001b[39m   \u001b[90m// Go to http://103.116.27.151:7002/login\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 12 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(diccCreds\u001b[33m.\u001b[39mhost \u001b[33m+\u001b[39m \u001b[32m\"/login\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 13 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/dicc.spec.js",
+                "line": 12,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.click(input[type=\"username\"])",
+              "startTime": "2021-12-20T08:48:53.910Z",
+              "duration": 12647,
+              "snippet": "\u001b[0m \u001b[90m 14 |\u001b[39m   \u001b[90m// Click input[type=\"username\"]\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 15 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'input[type=\"username\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 16 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/dicc.spec.js",
+                "line": 15,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.fill(input[type=\"username\"])",
+              "startTime": "2021-12-20T08:49:06.558Z",
+              "duration": 35,
+              "snippet": "\u001b[0m \u001b[90m 17 |\u001b[39m   \u001b[90m// Fill input[type=\"username\"]\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 18 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[type=\"username\"]'\u001b[39m\u001b[33m,\u001b[39m diccCreds\u001b[33m.\u001b[39musername)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 19 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/dicc.spec.js",
+                "line": 18,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.click(input[type=\"password\"])",
+              "startTime": "2021-12-20T08:49:06.594Z",
+              "duration": 962,
+              "snippet": "\u001b[0m \u001b[90m 20 |\u001b[39m   \u001b[90m// Click input[type=\"password\"]\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 21 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'input[type=\"password\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 22 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/dicc.spec.js",
+                "line": 21,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.fill(input[type=\"password\"])",
+              "startTime": "2021-12-20T08:49:07.556Z",
+              "duration": 21,
+              "snippet": "\u001b[0m \u001b[90m 23 |\u001b[39m   \u001b[90m// Fill input[type=\"password\"]\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 24 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[type=\"password\"]'\u001b[39m\u001b[33m,\u001b[39m diccCreds\u001b[33m.\u001b[39mpassword)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 25 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/dicc.spec.js",
+                "line": 24,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.waitForNavigation",
+              "startTime": "2021-12-20T08:49:07.578Z",
+              "duration": 336,
+              "snippet": "\u001b[0m \u001b[90m 27 |\u001b[39m   \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([\u001b[0m\n\u001b[0m \u001b[90m 28 |\u001b[39m     page\u001b[33m.\u001b[39mwaitForNavigation(\u001b[90m/*{ url: 'http://103.116.27.151:7002/dashboard' }*/\u001b[39m)\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m         ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 29 |\u001b[39m     page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Login\")'\u001b[39m)\u001b[33m,\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/dicc.spec.js",
+                "line": 28,
+                "column": 10
+              }
+            },
+            {
+              "title": "page.click(button:has-text(\"Login\"))",
+              "startTime": "2021-12-20T08:49:07.579Z",
+              "duration": 84,
+              "snippet": "\u001b[0m \u001b[90m 28 |\u001b[39m     page\u001b[33m.\u001b[39mwaitForNavigation(\u001b[90m/*{ url: 'http://103.116.27.151:7002/dashboard' }*/\u001b[39m)\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 29 |\u001b[39m     page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Login\")'\u001b[39m)\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m         ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 30 |\u001b[39m   ])\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/dicc.spec.js",
+                "line": 29,
+                "column": 10
+              }
+            },
+            {
+              "title": "locator.innerText(//body/div[@id='root']/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1])",
+              "startTime": "2021-12-20T08:49:07.919Z",
+              "duration": 393,
+              "snippet": "\u001b[0m \u001b[90m 35 |\u001b[39m   )\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 36 |\u001b[39m   \u001b[36mconst\u001b[39m locator_innertext \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                          ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 37 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/dicc.spec.js",
+                "line": 36,
+                "column": 43
+              }
+            },
+            {
+              "title": "locator.innerText(//body/div[@id='root']/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1])",
+              "startTime": "2021-12-20T08:49:08.313Z",
+              "duration": 91,
+              "snippet": "\u001b[0m \u001b[90m 44 |\u001b[39m   )\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 45 |\u001b[39m   \u001b[36mconst\u001b[39m locator_innertext2 \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator2\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                            ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 46 |\u001b[39m   console\u001b[33m.\u001b[39mlog(\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/dicc.spec.js",
+                "line": 45,
+                "column": 45
+              }
+            },
+            {
+              "title": "locator.innerText(//body/div[@id='root']/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1])",
+              "startTime": "2021-12-20T08:49:08.405Z",
+              "duration": 7,
+              "snippet": "\u001b[0m \u001b[90m 53 |\u001b[39m   )\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 54 |\u001b[39m   \u001b[36mconst\u001b[39m locator_innertext3 \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator3\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                            ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 55 |\u001b[39m   console\u001b[33m.\u001b[39mlog(\u001b[32m\"Total Devices offline \"\u001b[39m \u001b[33m+\u001b[39m locator_innertext3 \u001b[33m+\u001b[39m \u001b[32m\" out of 30\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/dicc.spec.js",
+                "line": 54,
+                "column": 45
+              }
+            },
+            {
+              "title": "locator.innerText(//body/div[@id='root']/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1])",
+              "startTime": "2021-12-20T08:49:08.413Z",
+              "duration": 21,
+              "snippet": "\u001b[0m \u001b[90m 60 |\u001b[39m   )\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 61 |\u001b[39m   \u001b[36mconst\u001b[39m locator_innertext4 \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator4\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                            ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 62 |\u001b[39m   console\u001b[33m.\u001b[39mlog(\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/dicc.spec.js",
+                "line": 61,
+                "column": 45
+              }
+            },
+            {
+              "title": "locator.innerText(//body/div[@id='root']/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1])",
+              "startTime": "2021-12-20T08:49:08.435Z",
+              "duration": 1519,
+              "snippet": "\u001b[0m \u001b[90m 69 |\u001b[39m   )\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 70 |\u001b[39m   \u001b[36mconst\u001b[39m locator_innertext5 \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator5\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                            ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 71 |\u001b[39m   console\u001b[33m.\u001b[39mlog(\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/dicc.spec.js",
+                "line": 70,
+                "column": 45
+              }
+            },
+            {
+              "title": "locator.innerText(//body/div[@id='root']/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1])",
+              "startTime": "2021-12-20T08:49:09.955Z",
+              "duration": 378,
+              "snippet": "\u001b[0m \u001b[90m 78 |\u001b[39m   )\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 79 |\u001b[39m   \u001b[36mconst\u001b[39m locator_innertext6 \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator6\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                            ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 80 |\u001b[39m   console\u001b[33m.\u001b[39mlog(\u001b[32m\"Devices Tampered are \"\u001b[39m \u001b[33m+\u001b[39m locator_innertext6 \u001b[33m+\u001b[39m \u001b[32m\" out of 30\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/dicc.spec.js",
+                "line": 79,
+                "column": 45
+              }
+            },
+            {
+              "title": "page.click(button:has-text(\"Welcome Admin DSCL,\"))",
+              "startTime": "2021-12-20T08:49:10.334Z",
+              "duration": 7566,
+              "snippet": "\u001b[0m \u001b[90m 82 |\u001b[39m   \u001b[90m// Click button:has-text(\"Welcome Admin DSCL,\")\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 83 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Welcome Admin DSCL,\")'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 84 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/dicc.spec.js",
+                "line": 83,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.click(button[role=\"menuitem\"]:has-text(\"logout\"))",
+              "startTime": "2021-12-20T08:49:17.913Z",
+              "duration": 13678,
+              "snippet": "\u001b[0m \u001b[90m 85 |\u001b[39m   \u001b[90m// Click button[role=\"menuitem\"]:has-text(\"logout\")\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 86 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button[role=\"menuitem\"]:has-text(\"logout\")'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 87 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(diccCreds\u001b[33m.\u001b[39mhost \u001b[33m+\u001b[39m \u001b[32m\"/login\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/dicc.spec.js",
+                "line": 86,
+                "column": 14
+              }
+            },
+            {
+              "title": "expect.toHaveURL",
+              "startTime": "2021-12-20T08:49:31.594Z",
+              "duration": 19,
+              "snippet": "\u001b[0m \u001b[90m 86 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button[role=\"menuitem\"]:has-text(\"logout\")'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 87 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(diccCreds\u001b[33m.\u001b[39mhost \u001b[33m+\u001b[39m \u001b[32m\"/login\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                     ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 88 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/dicc.spec.js",
+                "line": 87,
+                "column": 22
+              }
+            },
+            {
+              "title": "page.close",
+              "startTime": "2021-12-20T08:49:31.614Z",
+              "duration": 11,
+              "snippet": "\u001b[0m \u001b[90m 89 |\u001b[39m   \u001b[90m// Close page\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 90 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 91 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/binApplication/dicc.spec.js",
+                "line": 90,
+                "column": 14
+              }
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2021-12-20T08:49:31.626Z",
+              "duration": 944,
+              "steps": [
+                {
+                  "title": "browserContext.close",
+                  "startTime": "2021-12-20T08:49:31.627Z",
+                  "duration": 943,
+                  "steps": []
+                }
+              ]
+            }
+          ],
+          "error": "",
+          "status": "passed",
+          "attachments": [
+            {
+              "name": "stdout",
+              "contentType": "text/plain",
+              "body": "Devices online are 0 out of 30\nDevices offline for 24Hrs are 0 out of 30\nTotal Devices offline 0 out of 30\nDevices with Good Battery are 0 out of 30\nDevices with Low Battery are 0 out of 30\nDevices Tampered are 0 out of 30\n"
+            }
+          ]
+        }
+      ],
+      "ok": true
+    }
+  ]
+}

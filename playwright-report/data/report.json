@@ -1,0 +1,264 @@
+{
+  "files": [
+    {
+      "fileId": "7eb17bdb6f9df0a473c777965ac408179501dc27",
+      "fileName": "tests/aqmApplication/qeeri.spec.js",
+      "tests": [
+        {
+          "testId": "7eb17bdb6f9df0a473c777965ac408179501dc27-4cae6229c73785056c6e0c7beecb73e48bb2ad9a",
+          "title": "test",
+          "projectName": "",
+          "location": {
+            "file": "tests/aqmApplication/qeeri.spec.js",
+            "line": 3,
+            "column": 1
+          },
+          "duration": 52583,
+          "outcome": "expected",
+          "path": [
+            "tests/aqmApplication/qeeri.spec.js:3"
+          ],
+          "ok": true
+        }
+      ],
+      "stats": {
+        "total": 1,
+        "expected": 1,
+        "unexpected": 0,
+        "flaky": 0,
+        "skipped": 0,
+        "ok": true,
+        "duration": 52583
+      }
+    },
+    {
+      "fileId": "6a738505599b805ca861c3fc6855a3573d1ade6f",
+      "fileName": "tests/aqmApplication/qeeri1.spec.js",
+      "tests": [
+        {
+          "testId": "6a738505599b805ca861c3fc6855a3573d1ade6f-4cae6229c73785056c6e0c7beecb73e48bb2ad9a",
+          "title": "test",
+          "projectName": "",
+          "location": {
+            "file": "tests/aqmApplication/qeeri1.spec.js",
+            "line": 3,
+            "column": 1
+          },
+          "duration": 45172,
+          "outcome": "expected",
+          "path": [
+            "tests/aqmApplication/qeeri1.spec.js:3"
+          ],
+          "ok": true
+        }
+      ],
+      "stats": {
+        "total": 1,
+        "expected": 1,
+        "unexpected": 0,
+        "flaky": 0,
+        "skipped": 0,
+        "ok": true,
+        "duration": 45172
+      }
+    },
+    {
+      "fileId": "879d255e33cda36955dba985a2a58b9f20da6035",
+      "fileName": "tests/binApplication/dicc.spec.js",
+      "tests": [
+        {
+          "testId": "879d255e33cda36955dba985a2a58b9f20da6035-4cae6229c73785056c6e0c7beecb73e48bb2ad9a",
+          "title": "test",
+          "projectName": "",
+          "location": {
+            "file": "tests/binApplication/dicc.spec.js",
+            "line": 4,
+            "column": 1
+          },
+          "duration": 53754,
+          "outcome": "expected",
+          "path": [
+            "tests/binApplication/dicc.spec.js:4"
+          ],
+          "ok": true
+        }
+      ],
+      "stats": {
+        "total": 1,
+        "expected": 1,
+        "unexpected": 0,
+        "flaky": 0,
+        "skipped": 0,
+        "ok": true,
+        "duration": 53754
+      }
+    },
+    {
+      "fileId": "dde5a6289047a3458108e34cef4365f51e11f97b",
+      "fileName": "tests/binApplication/vighnaharta.spec.js",
+      "tests": [
+        {
+          "testId": "dde5a6289047a3458108e34cef4365f51e11f97b-4cae6229c73785056c6e0c7beecb73e48bb2ad9a",
+          "title": "test",
+          "projectName": "",
+          "location": {
+            "file": "tests/binApplication/vighnaharta.spec.js",
+            "line": 4,
+            "column": 1
+          },
+          "duration": 53992,
+          "outcome": "expected",
+          "path": [
+            "tests/binApplication/vighnaharta.spec.js:4"
+          ],
+          "ok": true
+        }
+      ],
+      "stats": {
+        "total": 1,
+        "expected": 1,
+        "unexpected": 0,
+        "flaky": 0,
+        "skipped": 0,
+        "ok": true,
+        "duration": 53992
+      }
+    },
+    {
+      "fileId": "5f836f5981e0fbc516afa439602ec4f68c2d6d9b",
+      "fileName": "tests/bosch/boschSiteA.spec.js",
+      "tests": [
+        {
+          "testId": "5f836f5981e0fbc516afa439602ec4f68c2d6d9b-4cae6229c73785056c6e0c7beecb73e48bb2ad9a",
+          "title": "test",
+          "projectName": "",
+          "location": {
+            "file": "tests/bosch/boschSiteA.spec.js",
+            "line": 5,
+            "column": 1
+          },
+          "duration": 28113,
+          "outcome": "expected",
+          "path": [
+            "tests/bosch/boschSiteA.spec.js:5"
+          ],
+          "ok": true
+        }
+      ],
+      "stats": {
+        "total": 1,
+        "expected": 1,
+        "unexpected": 0,
+        "flaky": 0,
+        "skipped": 0,
+        "ok": true,
+        "duration": 28113
+      }
+    },
+    {
+      "fileId": "f56adfa1c184afebef34ff50c1f86ba447e206bf",
+      "fileName": "tests/bosch/boschSiteB.spec.js",
+      "tests": [
+        {
+          "testId": "f56adfa1c184afebef34ff50c1f86ba447e206bf-4cae6229c73785056c6e0c7beecb73e48bb2ad9a",
+          "title": "test",
+          "projectName": "",
+          "location": {
+            "file": "tests/bosch/boschSiteB.spec.js",
+            "line": 6,
+            "column": 1
+          },
+          "duration": 23365,
+          "outcome": "expected",
+          "path": [
+            "tests/bosch/boschSiteB.spec.js:6"
+          ],
+          "ok": true
+        }
+      ],
+      "stats": {
+        "total": 1,
+        "expected": 1,
+        "unexpected": 0,
+        "flaky": 0,
+        "skipped": 0,
+        "ok": true,
+        "duration": 23365
+      }
+    },
+    {
+      "fileId": "cc5ceab8fcde97266bc544fc165a933dc074210a",
+      "fileName": "tests/fmsApplication/fmsBadalpur.spec.js",
+      "tests": [
+        {
+          "testId": "cc5ceab8fcde97266bc544fc165a933dc074210a-4cae6229c73785056c6e0c7beecb73e48bb2ad9a",
+          "title": "test",
+          "projectName": "",
+          "location": {
+            "file": "tests/fmsApplication/fmsBadalpur.spec.js",
+            "line": 4,
+            "column": 1
+          },
+          "duration": 12196,
+          "outcome": "expected",
+          "path": [
+            "tests/fmsApplication/fmsBadalpur.spec.js:4"
+          ],
+          "ok": true
+        }
+      ],
+      "stats": {
+        "total": 1,
+        "expected": 1,
+        "unexpected": 0,
+        "flaky": 0,
+        "skipped": 0,
+        "ok": true,
+        "duration": 12196
+      }
+    },
+    {
+      "fileId": "4d2c514a803b1348becb3cbb6abb5db89bd90369",
+      "fileName": "tests/fmsApplication/fmsMumbai.spec.js",
+      "tests": [
+        {
+          "testId": "4d2c514a803b1348becb3cbb6abb5db89bd90369-4cae6229c73785056c6e0c7beecb73e48bb2ad9a",
+          "title": "test",
+          "projectName": "",
+          "location": {
+            "file": "tests/fmsApplication/fmsMumbai.spec.js",
+            "line": 4,
+            "column": 1
+          },
+          "duration": 13564,
+          "outcome": "expected",
+          "path": [
+            "tests/fmsApplication/fmsMumbai.spec.js:4"
+          ],
+          "ok": true
+        }
+      ],
+      "stats": {
+        "total": 1,
+        "expected": 1,
+        "unexpected": 0,
+        "flaky": 0,
+        "skipped": 0,
+        "ok": true,
+        "duration": 13564
+      }
+    }
+  ],
+  "projectNames": [
+    ""
+  ],
+  "stats": {
+    "total": 8,
+    "expected": 8,
+    "unexpected": 0,
+    "flaky": 0,
+    "skipped": 0,
+    "ok": true,
+    "duration": 282739
+  }
+}

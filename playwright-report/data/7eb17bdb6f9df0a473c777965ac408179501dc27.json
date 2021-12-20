@@ -1,0 +1,282 @@
+{
+  "fileId": "7eb17bdb6f9df0a473c777965ac408179501dc27",
+  "fileName": "tests/aqmApplication/qeeri.spec.js",
+  "tests": [
+    {
+      "testId": "7eb17bdb6f9df0a473c777965ac408179501dc27-4cae6229c73785056c6e0c7beecb73e48bb2ad9a",
+      "title": "test",
+      "projectName": "",
+      "location": {
+        "file": "tests/aqmApplication/qeeri.spec.js",
+        "line": 3,
+        "column": 1
+      },
+      "duration": 52583,
+      "outcome": "expected",
+      "path": [
+        "tests/aqmApplication/qeeri.spec.js:3"
+      ],
+      "results": [
+        {
+          "duration": 52583,
+          "startTime": "2021-12-20T08:48:37.740Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2021-12-20T08:48:37.740Z",
+              "duration": 1588,
+              "steps": [
+                {
+                  "title": "browserContext.newPage",
+                  "startTime": "2021-12-20T08:48:39.064Z",
+                  "duration": 264,
+                  "steps": []
+                }
+              ]
+            },
+            {
+              "title": "page.goto(http://35.206.94.22:7006/)",
+              "startTime": "2021-12-20T08:48:39.331Z",
+              "duration": 5843,
+              "snippet": "\u001b[0m \u001b[90m  3 |\u001b[39m test(\u001b[32m\"test\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  4 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(airQualityCreds\u001b[33m.\u001b[39mhost \u001b[33m+\u001b[39m \u001b[32m\"/\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  5 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/aqmApplication/qeeri.spec.js",
+                "line": 4,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.goto(http://35.206.94.22:7006/dashboard)",
+              "startTime": "2021-12-20T08:48:45.174Z",
+              "duration": 483,
+              "snippet": "\u001b[0m \u001b[90m  5 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  6 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(airQualityCreds\u001b[33m.\u001b[39mhost \u001b[33m+\u001b[39m \u001b[32m\"/dashboard\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/aqmApplication/qeeri.spec.js",
+                "line": 6,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.goto(http://35.206.94.22:7006/login)",
+              "startTime": "2021-12-20T08:48:45.658Z",
+              "duration": 830,
+              "snippet": "\u001b[0m \u001b[90m  7 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  8 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(airQualityCreds\u001b[33m.\u001b[39mhost \u001b[33m+\u001b[39m \u001b[32m\"/login\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  9 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/aqmApplication/qeeri.spec.js",
+                "line": 8,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.click(input[type=\"username\"])",
+              "startTime": "2021-12-20T08:48:46.489Z",
+              "duration": 14257,
+              "snippet": "\u001b[0m \u001b[90m  9 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 10 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'input[type=\"username\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 11 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/aqmApplication/qeeri.spec.js",
+                "line": 10,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.fill(input[type=\"username\"])",
+              "startTime": "2021-12-20T08:49:00.746Z",
+              "duration": 21,
+              "snippet": "\u001b[0m \u001b[90m 11 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 12 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[type=\"username\"]'\u001b[39m\u001b[33m,\u001b[39m airQualityCreds\u001b[33m.\u001b[39musername)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 13 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/aqmApplication/qeeri.spec.js",
+                "line": 12,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.click(input[type=\"password\"])",
+              "startTime": "2021-12-20T08:49:00.767Z",
+              "duration": 2001,
+              "snippet": "\u001b[0m \u001b[90m 13 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 14 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'input[type=\"password\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 15 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/aqmApplication/qeeri.spec.js",
+                "line": 14,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.fill(input[type=\"password\"])",
+              "startTime": "2021-12-20T08:49:02.769Z",
+              "duration": 38,
+              "snippet": "\u001b[0m \u001b[90m 15 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 16 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[type=\"password\"]'\u001b[39m\u001b[33m,\u001b[39m airQualityCreds\u001b[33m.\u001b[39mpassword)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 17 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/aqmApplication/qeeri.spec.js",
+                "line": 16,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.waitForNavigation",
+              "startTime": "2021-12-20T08:49:02.809Z",
+              "duration": 773,
+              "snippet": "\u001b[0m \u001b[90m 18 |\u001b[39m   \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([\u001b[0m\n\u001b[0m \u001b[90m 19 |\u001b[39m     page\u001b[33m.\u001b[39mwaitForNavigation(\u001b[90m/*{ url: 'http://35.206.94.22:7006/dashboard' }*/\u001b[39m)\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m         ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 20 |\u001b[39m     page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Login\")'\u001b[39m)\u001b[33m,\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/aqmApplication/qeeri.spec.js",
+                "line": 19,
+                "column": 10
+              }
+            },
+            {
+              "title": "page.click(button:has-text(\"Login\"))",
+              "startTime": "2021-12-20T08:49:02.809Z",
+              "duration": 86,
+              "snippet": "\u001b[0m \u001b[90m 19 |\u001b[39m     page\u001b[33m.\u001b[39mwaitForNavigation(\u001b[90m/*{ url: 'http://35.206.94.22:7006/dashboard' }*/\u001b[39m)\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 20 |\u001b[39m     page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Login\")'\u001b[39m)\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m         ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 21 |\u001b[39m   ])\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/aqmApplication/qeeri.spec.js",
+                "line": 20,
+                "column": 10
+              }
+            },
+            {
+              "title": "page.click(button:has-text(\"Sites\"))",
+              "startTime": "2021-12-20T08:49:03.584Z",
+              "duration": 9393,
+              "snippet": "\u001b[0m \u001b[90m 22 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 23 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Sites\")'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 24 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m\"http://35.206.94.22:7006/sites\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/aqmApplication/qeeri.spec.js",
+                "line": 23,
+                "column": 14
+              }
+            },
+            {
+              "title": "expect.toHaveURL",
+              "startTime": "2021-12-20T08:49:13.110Z",
+              "duration": 270,
+              "snippet": "\u001b[0m \u001b[90m 23 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Sites\")'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 24 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m\"http://35.206.94.22:7006/sites\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                     ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 25 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/aqmApplication/qeeri.spec.js",
+                "line": 24,
+                "column": 22
+              }
+            },
+            {
+              "title": "page.click(text=Al Rayyan, Qatar)",
+              "startTime": "2021-12-20T08:49:13.381Z",
+              "duration": 3011,
+              "snippet": "\u001b[0m \u001b[90m 25 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 26 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"text=Al Rayyan, Qatar\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 27 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/aqmApplication/qeeri.spec.js",
+                "line": 26,
+                "column": 14
+              }
+            },
+            {
+              "title": "locator.innerText(//body/div[@id='root']/div[1]/div[2]/div[2]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]/span[1])",
+              "startTime": "2021-12-20T08:49:16.393Z",
+              "duration": 6,
+              "snippet": "\u001b[0m \u001b[90m 31 |\u001b[39m   )\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 32 |\u001b[39m   \u001b[36mconst\u001b[39m locator_innertext1 \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator1\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                            ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 33 |\u001b[39m   console\u001b[33m.\u001b[39mlog(\u001b[32m\"QEERI1 is \"\u001b[39m \u001b[33m+\u001b[39m locator_innertext1)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/aqmApplication/qeeri.spec.js",
+                "line": 32,
+                "column": 45
+              }
+            },
+            {
+              "title": "locator.innerText(//body/div[@id='root']/div[1]/div[2]/div[2]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]/span[1])",
+              "startTime": "2021-12-20T08:49:16.400Z",
+              "duration": 5,
+              "snippet": "\u001b[0m \u001b[90m 38 |\u001b[39m   )\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 39 |\u001b[39m   \u001b[36mconst\u001b[39m locator_innertext2 \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator2\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                            ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 40 |\u001b[39m   console\u001b[33m.\u001b[39mlog(\u001b[32m\"QEERI2 is \"\u001b[39m \u001b[33m+\u001b[39m locator_innertext2)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/aqmApplication/qeeri.spec.js",
+                "line": 39,
+                "column": 45
+              }
+            },
+            {
+              "title": "locator.innerText(//body/div[@id='root']/div[1]/div[2]/div[2]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]/span[1])",
+              "startTime": "2021-12-20T08:49:16.406Z",
+              "duration": 4,
+              "snippet": "\u001b[0m \u001b[90m 45 |\u001b[39m   )\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 46 |\u001b[39m   \u001b[36mconst\u001b[39m locator_innertext3 \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator3\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                            ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 47 |\u001b[39m   console\u001b[33m.\u001b[39mlog(\u001b[32m\"QEERI3 is \"\u001b[39m \u001b[33m+\u001b[39m locator_innertext3)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/aqmApplication/qeeri.spec.js",
+                "line": 46,
+                "column": 45
+              }
+            },
+            {
+              "title": "page.click(button:has-text(\"Welcome QEERI,\"))",
+              "startTime": "2021-12-20T08:49:16.411Z",
+              "duration": 3593,
+              "snippet": "\u001b[0m \u001b[90m 48 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 49 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Welcome QEERI,\")'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 50 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m\"networkidle\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/aqmApplication/qeeri.spec.js",
+                "line": 49,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.click(button[role=\"menuitem\"]:has-text(\"logout\"))",
+              "startTime": "2021-12-20T08:49:20.004Z",
+              "duration": 9337,
+              "snippet": "\u001b[0m \u001b[90m 50 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m\"networkidle\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 51 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button[role=\"menuitem\"]:has-text(\"logout\")'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 52 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m\"http://35.206.94.22:7006/login\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/aqmApplication/qeeri.spec.js",
+                "line": 51,
+                "column": 14
+              }
+            },
+            {
+              "title": "expect.toHaveURL",
+              "startTime": "2021-12-20T08:49:29.341Z",
+              "duration": 11,
+              "snippet": "\u001b[0m \u001b[90m 51 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button[role=\"menuitem\"]:has-text(\"logout\")'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 52 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m\"http://35.206.94.22:7006/login\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                     ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 53 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/aqmApplication/qeeri.spec.js",
+                "line": 52,
+                "column": 22
+              }
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2021-12-20T08:49:29.352Z",
+              "duration": 971,
+              "steps": [
+                {
+                  "title": "browserContext.close",
+                  "startTime": "2021-12-20T08:49:29.353Z",
+                  "duration": 969,
+                  "steps": []
+                }
+              ]
+            }
+          ],
+          "error": "",
+          "status": "passed",
+          "attachments": [
+            {
+              "name": "stdout",
+              "contentType": "text/plain",
+              "body": "QEERI1 is Offline\nQEERI2 is Offline\nQEERI3 is Offline\n"
+            }
+          ]
+        }
+      ],
+      "ok": true
+    }
+  ]
+}

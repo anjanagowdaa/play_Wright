@@ -1,0 +1,216 @@
+{
+  "fileId": "6a738505599b805ca861c3fc6855a3573d1ade6f",
+  "fileName": "tests/aqmApplication/qeeri1.spec.js",
+  "tests": [
+    {
+      "testId": "6a738505599b805ca861c3fc6855a3573d1ade6f-4cae6229c73785056c6e0c7beecb73e48bb2ad9a",
+      "title": "test",
+      "projectName": "",
+      "location": {
+        "file": "tests/aqmApplication/qeeri1.spec.js",
+        "line": 3,
+        "column": 1
+      },
+      "duration": 45172,
+      "outcome": "expected",
+      "path": [
+        "tests/aqmApplication/qeeri1.spec.js:3"
+      ],
+      "results": [
+        {
+          "duration": 45172,
+          "startTime": "2021-12-20T08:48:38.184Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2021-12-20T08:48:38.184Z",
+              "duration": 1641,
+              "steps": [
+                {
+                  "title": "browserContext.newPage",
+                  "startTime": "2021-12-20T08:48:39.553Z",
+                  "duration": 271,
+                  "steps": []
+                }
+              ]
+            },
+            {
+              "title": "page.goto(http://35.206.94.22:7006/)",
+              "startTime": "2021-12-20T08:48:39.827Z",
+              "duration": 5346,
+              "snippet": "\u001b[0m \u001b[90m  4 |\u001b[39m   \u001b[90m// Go to http://35.206.94.22:7006/\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  5 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"http://35.206.94.22:7006/\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  6 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/aqmApplication/qeeri1.spec.js",
+                "line": 5,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.goto(http://35.206.94.22:7006/dashboard)",
+              "startTime": "2021-12-20T08:48:45.174Z",
+              "duration": 484,
+              "snippet": "\u001b[0m \u001b[90m  7 |\u001b[39m   \u001b[90m// Go to http://35.206.94.22:7006/dashboard\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  8 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"http://35.206.94.22:7006/dashboard\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  9 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/aqmApplication/qeeri1.spec.js",
+                "line": 8,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.goto(http://35.206.94.22:7006/login)",
+              "startTime": "2021-12-20T08:48:45.659Z",
+              "duration": 855,
+              "snippet": "\u001b[0m \u001b[90m 10 |\u001b[39m   \u001b[90m// Go to http://35.206.94.22:7006/login\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 11 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"http://35.206.94.22:7006/login\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 12 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/aqmApplication/qeeri1.spec.js",
+                "line": 11,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.click(input[type=\"username\"])",
+              "startTime": "2021-12-20T08:48:46.516Z",
+              "duration": 14229,
+              "snippet": "\u001b[0m \u001b[90m 13 |\u001b[39m   \u001b[90m// Click input[type=\"username\"]\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 14 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'input[type=\"username\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 15 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/aqmApplication/qeeri1.spec.js",
+                "line": 14,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.fill(input[type=\"username\"])",
+              "startTime": "2021-12-20T08:49:00.746Z",
+              "duration": 20,
+              "snippet": "\u001b[0m \u001b[90m 16 |\u001b[39m   \u001b[90m// Fill input[type=\"username\"]\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 17 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[type=\"username\"]'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m\"qeeri@hyperthings.in\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 18 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/aqmApplication/qeeri1.spec.js",
+                "line": 17,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.click(input[type=\"password\"])",
+              "startTime": "2021-12-20T08:49:00.767Z",
+              "duration": 2007,
+              "snippet": "\u001b[0m \u001b[90m 19 |\u001b[39m   \u001b[90m// Click input[type=\"password\"]\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 20 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'input[type=\"password\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 21 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/aqmApplication/qeeri1.spec.js",
+                "line": 20,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.fill(input[type=\"password\"])",
+              "startTime": "2021-12-20T08:49:02.775Z",
+              "duration": 36,
+              "snippet": "\u001b[0m \u001b[90m 22 |\u001b[39m   \u001b[90m// Fill input[type=\"password\"]\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 23 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[type=\"password\"]'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m\"qeeri@123#\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 24 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/aqmApplication/qeeri1.spec.js",
+                "line": 23,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.waitForNavigation",
+              "startTime": "2021-12-20T08:49:02.812Z",
+              "duration": 837,
+              "snippet": "\u001b[0m \u001b[90m 26 |\u001b[39m   \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([\u001b[0m\n\u001b[0m \u001b[90m 27 |\u001b[39m     page\u001b[33m.\u001b[39mwaitForNavigation(\u001b[90m/*{ url: 'http://35.206.94.22:7006/dashboard' }*/\u001b[39m)\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m         ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 28 |\u001b[39m     page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Login\")'\u001b[39m)\u001b[33m,\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/aqmApplication/qeeri1.spec.js",
+                "line": 27,
+                "column": 10
+              }
+            },
+            {
+              "title": "page.click(button:has-text(\"Login\"))",
+              "startTime": "2021-12-20T08:49:02.813Z",
+              "duration": 78,
+              "snippet": "\u001b[0m \u001b[90m 27 |\u001b[39m     page\u001b[33m.\u001b[39mwaitForNavigation(\u001b[90m/*{ url: 'http://35.206.94.22:7006/dashboard' }*/\u001b[39m)\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 28 |\u001b[39m     page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Login\")'\u001b[39m)\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m         ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 29 |\u001b[39m   ])\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/aqmApplication/qeeri1.spec.js",
+                "line": 28,
+                "column": 10
+              }
+            },
+            {
+              "title": "page.click(button:has-text(\"Welcome QEERI,\"))",
+              "startTime": "2021-12-20T08:49:03.651Z",
+              "duration": 9157,
+              "snippet": "\u001b[0m \u001b[90m 31 |\u001b[39m   \u001b[90m// Click button:has-text(\"Welcome QEERI,\")\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 32 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Welcome QEERI,\")'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 33 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/aqmApplication/qeeri1.spec.js",
+                "line": 32,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.click(button[role=\"menuitem\"]:has-text(\"logout\"))",
+              "startTime": "2021-12-20T08:49:12.809Z",
+              "duration": 8524,
+              "snippet": "\u001b[0m \u001b[90m 34 |\u001b[39m   \u001b[90m// Click button[role=\"menuitem\"]:has-text(\"logout\")\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 35 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button[role=\"menuitem\"]:has-text(\"logout\")'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 36 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m\"http://35.206.94.22:7006/login\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/aqmApplication/qeeri1.spec.js",
+                "line": 35,
+                "column": 14
+              }
+            },
+            {
+              "title": "expect.toHaveURL",
+              "startTime": "2021-12-20T08:49:21.336Z",
+              "duration": 9,
+              "snippet": "\u001b[0m \u001b[90m 35 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button[role=\"menuitem\"]:has-text(\"logout\")'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 36 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m\"http://35.206.94.22:7006/login\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                     ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 37 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mtitle\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/aqmApplication/qeeri1.spec.js",
+                "line": 36,
+                "column": 22
+              }
+            },
+            {
+              "title": "page.close",
+              "startTime": "2021-12-20T08:49:21.346Z",
+              "duration": 189,
+              "snippet": "\u001b[0m \u001b[90m 39 |\u001b[39m   \u001b[90m// Close page\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 40 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 41 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/aqmApplication/qeeri1.spec.js",
+                "line": 40,
+                "column": 14
+              }
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2021-12-20T08:49:21.535Z",
+              "duration": 1821,
+              "steps": [
+                {
+                  "title": "browserContext.close",
+                  "startTime": "2021-12-20T08:49:21.536Z",
+                  "duration": 1819,
+                  "steps": []
+                }
+              ]
+            }
+          ],
+          "error": "",
+          "status": "passed",
+          "attachments": []
+        }
+      ],
+      "ok": true
+    }
+  ]
+}

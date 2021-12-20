@@ -1,0 +1,234 @@
+{
+  "fileId": "5f836f5981e0fbc516afa439602ec4f68c2d6d9b",
+  "fileName": "tests/bosch/boschSiteA.spec.js",
+  "tests": [
+    {
+      "testId": "5f836f5981e0fbc516afa439602ec4f68c2d6d9b-4cae6229c73785056c6e0c7beecb73e48bb2ad9a",
+      "title": "test",
+      "projectName": "",
+      "location": {
+        "file": "tests/bosch/boschSiteA.spec.js",
+        "line": 5,
+        "column": 1
+      },
+      "duration": 28113,
+      "outcome": "expected",
+      "path": [
+        "tests/bosch/boschSiteA.spec.js:5"
+      ],
+      "results": [
+        {
+          "duration": 28113,
+          "startTime": "2021-12-20T08:49:23.703Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2021-12-20T08:49:23.703Z",
+              "duration": 1013,
+              "steps": [
+                {
+                  "title": "browserContext.newPage",
+                  "startTime": "2021-12-20T08:49:23.709Z",
+                  "duration": 1007,
+                  "steps": []
+                }
+              ]
+            },
+            {
+              "title": "page.goto(http://iot2.hyperthings.in:6010/)",
+              "startTime": "2021-12-20T08:49:24.716Z",
+              "duration": 6164,
+              "snippet": "\u001b[0m \u001b[90m  6 |\u001b[39m   \u001b[90m// Go to boschAppCreds.host/\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(boschAppCreds\u001b[33m.\u001b[39mhost \u001b[33m+\u001b[39m \u001b[32m\"/\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  8 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/bosch/boschSiteA.spec.js",
+                "line": 7,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.goto(http://iot2.hyperthings.in:6010/)",
+              "startTime": "2021-12-20T08:49:30.881Z",
+              "duration": 490,
+              "snippet": "\u001b[0m \u001b[90m  9 |\u001b[39m   \u001b[90m// Go to boschAppCreds.host/user/login\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 10 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(boschAppCreds\u001b[33m.\u001b[39mhost \u001b[33m+\u001b[39m \u001b[32m\"/\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 11 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/bosch/boschSiteA.spec.js",
+                "line": 10,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.click([placeholder=\"username\"])",
+              "startTime": "2021-12-20T08:49:31.372Z",
+              "duration": 678,
+              "snippet": "\u001b[0m \u001b[90m 12 |\u001b[39m   \u001b[90m// Click [placeholder=\"username\"]\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 13 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'[placeholder=\"username\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 14 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/bosch/boschSiteA.spec.js",
+                "line": 13,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.fill([placeholder=\"username\"])",
+              "startTime": "2021-12-20T08:49:32.051Z",
+              "duration": 21,
+              "snippet": "\u001b[0m \u001b[90m 15 |\u001b[39m   \u001b[90m// Fill [placeholder=\"username\"]\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 16 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"username\"]'\u001b[39m\u001b[33m,\u001b[39m boschAppCreds\u001b[33m.\u001b[39musername)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 17 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/bosch/boschSiteA.spec.js",
+                "line": 16,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.click([placeholder=\"password\"])",
+              "startTime": "2021-12-20T08:49:32.072Z",
+              "duration": 1010,
+              "snippet": "\u001b[0m \u001b[90m 18 |\u001b[39m   \u001b[90m// Click [placeholder=\"password\"]\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 19 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'[placeholder=\"password\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 20 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/bosch/boschSiteA.spec.js",
+                "line": 19,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.fill([placeholder=\"password\"])",
+              "startTime": "2021-12-20T08:49:33.083Z",
+              "duration": 19,
+              "snippet": "\u001b[0m \u001b[90m 21 |\u001b[39m   \u001b[90m// Fill [placeholder=\"password\"]\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 22 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"password\"]'\u001b[39m\u001b[33m,\u001b[39m boschAppCreds\u001b[33m.\u001b[39mpassword)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 23 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/bosch/boschSiteA.spec.js",
+                "line": 22,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.waitForNavigation",
+              "startTime": "2021-12-20T08:49:33.102Z",
+              "duration": 2891,
+              "snippet": "\u001b[0m \u001b[90m 25 |\u001b[39m   \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([\u001b[0m\n\u001b[0m \u001b[90m 26 |\u001b[39m     page\u001b[33m.\u001b[39mwaitForNavigation(\u001b[90m/*{ url: 'boschAppCreds.host/dashboard' }*/\u001b[39m)\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m         ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 27 |\u001b[39m     page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Login\")'\u001b[39m)\u001b[33m,\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/bosch/boschSiteA.spec.js",
+                "line": 26,
+                "column": 10
+              }
+            },
+            {
+              "title": "page.click(button:has-text(\"Login\"))",
+              "startTime": "2021-12-20T08:49:33.103Z",
+              "duration": 2083,
+              "snippet": "\u001b[0m \u001b[90m 26 |\u001b[39m     page\u001b[33m.\u001b[39mwaitForNavigation(\u001b[90m/*{ url: 'boschAppCreds.host/dashboard' }*/\u001b[39m)\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 27 |\u001b[39m     page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Login\")'\u001b[39m)\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m         ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 28 |\u001b[39m   ])\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/bosch/boschSiteA.spec.js",
+                "line": 27,
+                "column": 10
+              }
+            },
+            {
+              "title": "locator.innerText(//tbody/tr[1]/td[7])",
+              "startTime": "2021-12-20T08:49:35.994Z",
+              "duration": 5252,
+              "snippet": "\u001b[0m \u001b[90m 31 |\u001b[39m   \u001b[36mconst\u001b[39m locator \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\"//tbody/tr[1]/td[7]\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 32 |\u001b[39m   \u001b[36mconst\u001b[39m locator_innertext \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                          ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 33 |\u001b[39m   \u001b[90m// console.log(\"SiteA/WingA refreshed at \" + locator_innertext);\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/bosch/boschSiteA.spec.js",
+                "line": 32,
+                "column": 43
+              }
+            },
+            {
+              "title": "expect.toContainText",
+              "startTime": "2021-12-20T08:49:41.246Z",
+              "duration": 11,
+              "snippet": "\u001b[0m \u001b[90m 33 |\u001b[39m   \u001b[90m// console.log(\"SiteA/WingA refreshed at \" + locator_innertext);\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 34 |\u001b[39m   \u001b[36mawait\u001b[39m expect(locator)\u001b[33m.\u001b[39mtoContainText(locator_innertext)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                        ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 35 |\u001b[39m   \u001b[36mconst\u001b[39m words \u001b[33m=\u001b[39m locator_innertext\u001b[33m.\u001b[39msplit(\u001b[32m\" \"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/bosch/boschSiteA.spec.js",
+                "line": 34,
+                "column": 25
+              }
+            },
+            {
+              "title": "page.click(text=Bosch Admin)",
+              "startTime": "2021-12-20T08:49:41.258Z",
+              "duration": 2006,
+              "snippet": "\u001b[0m \u001b[90m 82 |\u001b[39m   \u001b[90m// Click text=Bosch Admin\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 83 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"text=Bosch Admin\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 84 |\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/bosch/boschSiteA.spec.js",
+                "line": 83,
+                "column": 14
+              }
+            },
+            {
+              "title": "page.click(text=Logout)",
+              "startTime": "2021-12-20T08:49:43.265Z",
+              "duration": 8510,
+              "snippet": "\u001b[0m \u001b[90m 85 |\u001b[39m   \u001b[90m// Click text=Logout\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 86 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"text=Logout\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 87 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m\"networkidle\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/bosch/boschSiteA.spec.js",
+                "line": 86,
+                "column": 14
+              }
+            },
+            {
+              "title": "expect.toHaveURL",
+              "startTime": "2021-12-20T08:49:51.775Z",
+              "duration": 7,
+              "snippet": "\u001b[0m \u001b[90m 87 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m\"networkidle\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 88 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                     ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 89 |\u001b[39m     \u001b[32m`${boschAppCreds.host}/user/login?redirect=http%3A%2F%2Fiot2.hyperthings.in%3A6010%2Fdashboard`\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/bosch/boschSiteA.spec.js",
+                "line": 88,
+                "column": 22
+              }
+            },
+            {
+              "title": "page.close",
+              "startTime": "2021-12-20T08:49:51.782Z",
+              "duration": 8,
+              "snippet": "\u001b[0m \u001b[90m 92 |\u001b[39m   \u001b[90m// Close page\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 93 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 94 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "tests/bosch/boschSiteA.spec.js",
+                "line": 93,
+                "column": 14
+              }
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2021-12-20T08:49:51.790Z",
+              "duration": 26,
+              "steps": [
+                {
+                  "title": "browserContext.close",
+                  "startTime": "2021-12-20T08:49:51.791Z",
+                  "duration": 25,
+                  "steps": []
+                }
+              ]
+            }
+          ],
+          "error": "",
+          "status": "passed",
+          "attachments": [
+            {
+              "name": "stdout",
+              "contentType": "text/plain",
+              "body": "SiteA/WingA Refreshed 9 minutes ago\n"
+            }
+          ]
+        }
+      ],
+      "ok": true
+    }
+  ]
+}
